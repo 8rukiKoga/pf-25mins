@@ -14,7 +14,6 @@ class SettingTaskViewController: UIViewController {
         inputTaskName.delegate = self
     }
     
-    
     @IBAction func inputTaskName(_ sender: Any){
         if inputTaskName.text!.count < 1 {
             setTaskName.isEnabled = false
